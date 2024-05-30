@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!--Etiqueta de texto ID-->
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <!--Etiqueta de texto Ladrillo-->
+    <TextView
+        android:id="@+id/txt_ladrillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ladrillo"
+        android:textSize="16sp" />
+    <!--Etiqueta de texto Cantidad-->
+    <TextView
+        android:id="@+id/txt_can"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad"
+        android:textSize="16sp" />
+    <!--Etiqueta de texto Tipo-->
+    <TextView
+        android:id="@+id/txt_ti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textSize="16sp" />
+    <!--Etiqueta de texto Precio-->
+    <TextView
+        android:id="@+id/txt_pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio"
+        android:textSize="16sp" />
+    <!--Etiqueta de texto Fecha-->
+    <TextView
+        android:id="@+id/txt_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:textSize="16sp" />
+
+</LinearLayout>

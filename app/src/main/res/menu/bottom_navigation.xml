@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_invent"
+        android:icon="@drawable/btn_inventory"
+        android:title="Inventario"/>
+    <item
+        android:id="@+id/menu_product"
+        android:icon="@drawable/btn_productos"
+        android:title="Productos"/>
+    <item
+        android:id="@+id/menu_vent"
+        android:icon="@drawable/btn_venta"
+        android:title="Venta"/>
+</menu>

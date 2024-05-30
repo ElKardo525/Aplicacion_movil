@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inventario"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!-- Botón Agregado -->
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#094f79"
+        android:onClick="regresar"
+        android:text="Regresar"
+        android:textColor="@android:color/white" />
+
+    <!-- Etiqueta de texto -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de registro de produccion"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ListView
+        android:id="@+id/listMostrar2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|center"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:id="@+id/txt_ladrillo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginVertical="20dp"
+            android:text="Ladrillo"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_can"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="55dp"
+            android:text="Cantidad"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txt_ti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="85dp"
+            android:text="Tipo"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txt_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="145dp"
+            android:text="Fecha"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Otros"
+            android:textColor="#062BFB"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
